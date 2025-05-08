@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Will Chan Climbing Coach",
   description: "Professional climbing coaching services by Will Chan",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
